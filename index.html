@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELO Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>ELO Calculator</h1>
+
+    <!-- Player input fields -->
+    <div id="player-inputs">
+        <h2>Define Players</h2>
+        <div id="players-form">
+            <!-- Placeholder for dynamic player input fields -->
+        </div>
+        <button onclick="addPlayer()">Add Player</button>
+    </div>
+
+    <button onclick="calculateElo()">Calculate New ELO Ratings</button>
+
+    <div id="results"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
